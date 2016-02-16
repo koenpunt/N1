@@ -161,6 +161,7 @@ class NylasExports
   # Utils
   @load "Utils", 'flux/models/utils'
   @load "DOMUtils", 'dom-utils'
+  @load "VirtualDOMUtils", 'virtual-dom-utils'
   @load "CanvasUtils", 'canvas-utils'
   @load "RegExpUtils", 'regexp-utils'
   @load "MenuHelpers", 'menu-helpers'
