@@ -131,6 +131,7 @@ class NylasExports
   @require "FocusedPerspectiveStore", 'flux/stores/focused-perspective-store'
   @require "FocusedContactsStore", 'flux/stores/focused-contacts-store'
   @require "PreferencesUIStore", 'flux/stores/preferences-ui-store'
+  @require "SearchableComponentStore", 'flux/stores/searchable-component-store'
 
   @require "MessageBodyProcessor", 'flux/stores/message-body-processor'
   @require "MailRulesTemplates", 'mail-rules-templates'
