@@ -15,7 +15,8 @@ class EmailFrame extends React.Component
     @_lastComputedHeight = 0
 
   render: =>
-    <EventedIFrame ref="iframe" seamless="seamless" onResize={@_setFrameHeight}/>
+    <EventedIFrame ref="iframe" seamless="seamless" searchable={true}
+      onResize={@_setFrameHeight}/>
 
   componentDidMount: =>
     @_mounted = true
